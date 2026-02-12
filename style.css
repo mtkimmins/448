@@ -170,7 +170,7 @@ main {
 
 .resource-link.locked {
     background: linear-gradient(135deg, #95a5a6 0%, #7f8c8d 100%);
-    cursor: not-allowed;
+    
 }
 
 .resource-link.locked:hover {
