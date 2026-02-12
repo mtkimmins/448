@@ -1,0 +1,45 @@
+name: Link check (mtkimmins.github.io/448)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 14:00 UTC = 07:00 Edmonton (MST). During DST it will run at 08:00 local.
+    - cron: "0 14 * * *"
+
+permissions:
+  issues: write
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch the page HTML
+        run: |
+          mkdir -p lychee
+          curl -fsSL "https://mtkimmins.github.io/448/" -o lychee/page.html
+
+      - name: Check links found on the page
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: false
+          format: markdown
+          output: lychee/out.md
+          # --base-url helps lychee resolve relative links inside the downloaded HTML (keep the trailing slash)
+          args: >-
+            --verbose
+            --no-progress
+            --base-url https://mtkimmins.github.io/448/
+            lychee/page.html
+
+      - name: Open an issue with the broken-link report
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: "Broken links detected on mtkimmins.github.io/448/"
+          content-filepath: ./lychee/out.md
+          labels: |
+            link-check
+            automated
+          assignees: |
+            mtkimmins
