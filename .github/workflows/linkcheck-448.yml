@@ -29,6 +29,7 @@ jobs:
           args: >-
             --verbose
             --no-progress
+            --insecure
             --base-url https://mtkimmins.github.io/448/
             lychee/page.html
 
