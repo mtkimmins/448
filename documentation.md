@@ -21,4 +21,4 @@
 |- NIHB coverage
 * Pediatric
 |- [x] pedmeds.org
-|- [x] ped anagesic calc
+|- [x] ped analgesic calc
