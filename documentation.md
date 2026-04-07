@@ -1,9 +1,8 @@
 # Documentation
 
-# TODO
+# TODO (Post-Midterm)
 * Better Organization Intuition, Grouping
 * Allow for easier insertion of tools (preconstructed types of items)
-* Set up traffic monitor
 * include title abbreviations + long name
 * ++CAMS score for delirium
 * review stop/start file
@@ -22,3 +21,12 @@
 * Pediatric
 |- [x] pedmeds.org
 |- [x] ped analgesic calc
+
+# TODO (Final)
+> Corrections
+* HepC
+* AHS Corrections formulary (different than hospital!)
+* ...Any other OAT shit?
+> Pediatric
+* MUST FIX PED Calc (<10d neo = 60mg/kg/day max>); check advil dosing...
+> Newcomers
