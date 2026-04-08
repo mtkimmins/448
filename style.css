@@ -225,6 +225,14 @@ footer p {
     display: none;
 }
 
+.category.hidden {
+    display: none;
+}
+
+.subcategory.hidden {
+    display: none;
+}
+
 .resource-card.highlight {
     border-color: #f39c12;
     background: #fffbf0;
