@@ -14,7 +14,6 @@
 * collapsible drop down menus
 * better micro-descriptions
 * colour coding of sections
-* floating search bar
 
 # Potential Structure
 * Incarceration

@@ -51,9 +51,11 @@
                 <p class="subtitle">Comprehensive clinical resource hub with evidence-based guidelines, algorithms, and decision support tools for pharmacy professionals.<br><b>Ensure login credentials are accessible</b> for UofA Library, RxFiles, Credible Meds, and SwitchRx (denoted by gray buttons).</p>
                 <h2>FINAL MATERIAL</h2>
                 <a href="index-m1.html" class="resource-link" itemprop="url" target="_self">Switch to Midterm Material</a>
-                <br><br>
-                <input type="text" id="searchBox" class="search-box" placeholder="🔍 Search resources..." aria-label="Search clinical resources">
             </header>
+
+            <div class="search-bar-shell">
+                <input type="text" id="searchBox" class="search-box" placeholder="🔍 Search resources..." aria-label="Search clinical resources">
+            </div>
 
             <main>
                 <!-- MAIN HUB -->
@@ -67,6 +69,7 @@
                         </article>
                         <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                             <h3 itemprop="name">Bugs & Drugs (AHS)</h3>
+                            <p class="description" itemprop="description">DO NOT USE for pediatric dosing. Use Ped-Lexi or PedMed instead.</p>
                             <a href="https://www.bugsanddrugs.org/" class="resource-link" itemprop="url" target="_blank">Access →</a>
                         </article>
                         <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
@@ -100,16 +103,6 @@
                             <p class="note">Guidelines for numerous substances abused</p>
                             <a href="https://www.camh.ca/en/health-info/mental-illness-and-addiction-index/mha-index-substance-use" class="resource-link" itemprop="url" target="_blank">View →</a>
                         </article>
-                        #TODO
-                        <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
-                            <h4 itemprop="name">Tool - Corrections Pharmacy Forumulary (AHS)</h4>
-                            <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
-                        </article>
-                        #TODO - NIHB coverage database
-                        <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
-                            <h4 itemprop="name"></h4>
-                            <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
-                        </article>
                     </div>
                 </section>
 
@@ -126,11 +119,6 @@
                             <h4 itemprop="name">Tool - Pediatric Online Formulary (PedMed)</h4>
                             <p class="note">Children's Analogous LexiDrug</p>
                             <a href="https://pedmed.org/" class="resource-link" itemprop="url" target="_blank">View →</a>
-                        </article>
-                        <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
-                            <h4 itemprop="name">Tool - Neonatal Age/Weight Calculator</h4>
-                            <p class="note">Coming Soon<br>Classify and calculate gestational- and adjusted-age + weight classification</p>
-                            <a href="" class="resource-link locked" itemprop="url" target="_blank">Calculate →</a>
                         </article>
                         <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                             <h3 itemprop="name">Book - Drugs in Pregnancy</h3>
@@ -169,7 +157,7 @@
                         </article>
                         <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                             <h3 itemprop="name">Guidelines - Pediatric COVID: Multisystem Inflammatory Syndrome in Children (MIS-C)</h3>
-                            <a href="/assets2/mis-c.html" class="resource-link" itemprop="url" target="_blank">View →</a>
+                            <a href="assets2/mis-c.html" class="resource-link" itemprop="url" target="_blank">View →</a>
                         </article>
                         <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                             <h3 itemprop="name">Guidelines - Pediatric Hospital Care (WHO)</h3>
@@ -217,55 +205,56 @@
                                 <a href="https://www.alberta.ca/children-and-family-services" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
-                                <h4 itemprop="name">Law - Enhancement Act</h4>
-                                <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
+                                <h4 itemprop="name">Law - Enhancement Act (Alberta)</h4>
+                                <a href="https://kings-printer.alberta.ca/1266.cfm?page=C12.cfm&leg_type=Acts&isbncln=9780779860159" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
-                                <h4 itemprop="name">Law - Children First Act</h4>
-                                <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
+                                <h4 itemprop="name">Law - Children First Act (Alberta)</h4>
+                                <a href="https://kings-printer.alberta.ca/1266.cfm?page=c12p5.cfm&leg_type=Acts&isbncln=9780779854240" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
-                                <h4 itemprop="name">HIA (translated update)</h4>
-                                <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
+                                <h4 itemprop="name">Law - Health Information Act (Alberta)</h4>
+                                <a href="https://www.alberta.ca/health-information-act" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                         </div>
                     </div>
                         
-                        <!--conditions at birth-->
+                    <!--conditions at birth-->
                     <div class="subcategory">
                         <h3>Conditions at Birth</h3>
                         <div class="resources-grid">
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Conjunctivitis</h4>
-                                <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
+                                <a href="assets2/neonatal-conjunctivitis.html" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Vitamin K Bleed Risk</h4>
-                                <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
+                                <a href="https://cps.ca/en/documents/position/vitamin-k-prophylaxis-in-newborns" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Intraventricular Hemorrhage (Brain Bleed)</h4>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Alberta Newborn Screening Program</h4>
-                                <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
+                                <a href="https://www.albertahealthservices.ca/services/newbornscreening.aspx" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Auditory Tests</h4>
-                                <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
+                                <a href="https://www.albertahealthservices.ca/services/Page14028.aspx" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Rashes</h4>
-                                <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
+                                <a href="https://www.aafp.org/pubs/afp/issues/2008/0101/p47.pdf" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Umbilical Cord Care</h4>
-                                <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
+                                <a href="https://www.healthyparentshealthychildren.ca/im-a-parent/newborn-birth-2-months/how-your-newborn-looks#umbilical-cord" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
-                                <h4 itemprop="name">Jaundice</h4>
-                                <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
+                                <h4 itemprop="name">Guidelines - Jaundice (NICE)</h4>
+                                <a href="https://www.nice.org.uk/guidance/cg98/resources/jaundice-in-newborn-babies-under-28-days-pdf-975756073669" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                         </div>
                     </div>
@@ -276,12 +265,12 @@
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">(WAT1)</h4>
                                 <p class="description" itemprop="description">Withdrawal score in breastfeeding neonates</p>
-                                <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
+                                <a href="https://www.mdcalc.com/calc/10168/withdrawal-assessment-tool-wat-1-pediatric-withdrawal" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
-                                <h4 itemprop="name">Tool - Finnegan Score</h4>
-                                <p class="description" itemprop="description">Withdrawal score/procedure</p>
-                                <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
+                                <h4 itemprop="name">Tool - Finnegan Score or Neonatal Abstinence Score (NAS)</h4>
+                                <p class="description" itemprop="description">Pediatric withdrawal score & procedure</p>
+                                <a href="https://www.mdcalc.com/calc/10048/modified-finnegan-neonatal-abstinence-score-nas" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                         </div>
                     </div>
@@ -291,6 +280,7 @@
                         <div class="resources-grid">
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Pediatric Sepsis</h4>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
@@ -300,10 +290,12 @@
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Oral Candidiasis (Thrush)</h4>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Guidelines - Ventilator-Acquired Pneumonia (VAP)</h4>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                         </div>
@@ -314,43 +306,53 @@
                         <div class="resources-grid">
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Thermal Regulation</h4>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <!--premature conditions-->
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Immature Lungs</h4>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">RDS</h4>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">TTN</h4>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Bronc Dysplasia</h4>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Neuroprotection</h4>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Retinopathy</h4>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">GI</h4>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Patent Ductus act.</h4>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Guidelines - Necrotizing Enterocolitis (NEC) </h4>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                         </div>
@@ -385,20 +387,24 @@
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Tool - (NRS-11)</h4>
                                 <p class="description" itemprop="description">Pediatric Pain Scale for Verbal +8yo</p>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Tool - (FLACC-R)</h4>
                                 <p class="description" itemprop="description">Pediatric Pain Scale for Verbal and Non-Verbal Children (no age restriction)</p>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Tool - (NPASS)</h4>
                                 <p class="description" itemprop="description">Pediatric Pain Scale for Neonates</p>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                                 <h4 itemprop="name">Guidelines - World Health Organization (WHO) Pain Ladder</h4>
+                                <p class="description" itemprop="description">NOT CONNECTED YET</p>
                                 <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                             </article>
                             <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
@@ -415,31 +421,41 @@
                     <div class="resources-grid">
                         <!--PAIN category-->
                         <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
-                            <h4 itemprop="name">Guidelines - Autism in Pharmacy</h4>
-                            <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10924569/" class="resource-link" itemprop="url" target="_blank">View →</a>
+                            <h4 itemprop="name">Guidelines - Autism in Pharmacy </h4>
+                            <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10924569/pdf/10.1177_17151635241228495.pdf" class="resource-link" itemprop="url" target="_blank">View →</a>
+                        </article>
+                        <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
+                            <h4 itemprop="name">Guidelines - Co-morbid Psychiatry with Autism</h4>
+                            <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11705908/pdf/12916_2024_Article_3814.pdf" class="resource-link" itemprop="url" target="_blank">View →</a>
                         </article>
                         <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                             <h4 itemprop="name">ADHD</h4>
+                            <p class="description" itemprop="description">NOT CONNECTED YET</p>
                             <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                         </article>
                         <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                             <h4 itemprop="name">Behavioural</h4>
+                            <p class="description" itemprop="description">NOT CONNECTED YET</p>
                             <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                         </article>
                         <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                             <h4 itemprop="name">Mood</h4>
+                            <p class="description" itemprop="description">NOT CONNECTED YET</p>
                             <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                         </article>
                         <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                             <h4 itemprop="name">Insomnia</h4>
+                            <p class="description" itemprop="description">NOT CONNECTED YET</p>
                             <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                         </article>
                         <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                             <h4 itemprop="name">Nutrition & Constipation</h4>
+                            <p class="description" itemprop="description">NOT CONNECTED YET</p>
                             <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                         </article>
                         <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
                             <h4 itemprop="name">Epilepsy</h4>
+                            <p class="description" itemprop="description">NOT CONNECTED YET</p>
                             <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
                         </article>
 
@@ -450,7 +466,32 @@
                 <section class="category" data-category="pediatric">
                     <h2 class="category-title">Immigration & Newcomers</h2>
                     <div class="resources-grid">
+
+                        <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
+                            <h4 itemprop="name">Paper - Immigrant & Refugee Care</h4>
+                            <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3168666/pdf/183e824.pdf" class="resource-link" itemprop="url" target="_blank">View →</a>
+                        </article>
                     
+                        <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
+                            <h4 itemprop="name">Guidelines - Immigrant & Refugee Health (CDC)</h4>
+                            <a href="https://www.cdc.gov/immigrant-refugee-health/about/index.html" class="resource-link" itemprop="url" target="_blank">View →</a>
+                        </article>
+
+                        <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
+                            <h4 itemprop="name">Tools - Immigrant & Refugee Mental Health</h4>
+                            <a href="https://multiculturalmentalhealth.ca/clinical-tools/immigrants-refugees/" class="resource-link" itemprop="url" target="_blank">View →</a>
+                        </article>
+
+                        <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
+                            <h4 itemprop="name">Guidelines - Building a Welcoming Community</h4>
+                            <a href="https://journals.sagepub.com/doi/epub/10.1177/1715163512472321" class="resource-link" itemprop="url" target="_blank">View →</a>
+                        </article>
+                    
+                        <article class="resource-card" itemscope itemtype="https://schema.org/Thing">
+                            <h4 itemprop="name">Tool - NEWCOMERS survey</h4>
+                            <p class="description" itemprop="description">NEEDS TO BE MADE</p>
+                            <a href="" class="resource-link" itemprop="url" target="_blank">View →</a>
+                        </article>
                     </div>
                 </section>
             </main>
